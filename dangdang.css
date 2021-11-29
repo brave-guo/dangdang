@@ -1,0 +1,478 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* 头部样式 */
+header{
+    height: 35px;
+    background-color: rgb(249,249,249);
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 13px;
+    color: rgb(100,100,100);
+    font-family: 宋体;
+    line-height: 35px;
+    border-bottom:1px solid rgb(242,242,242);
+}
+
+header a{
+    color: rgb(254,38,32);
+    text-decoration: none;
+}
+
+
+
+header ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 1000px;
+    text-align: right;
+}
+
+header li{
+    display: inline-block;
+    text-align: center;
+}
+
+header ul .special{
+    width: 1px;
+    height: 10px;
+    background-color: rgb(229,229,229);
+
+}
+
+header ul .shopping{
+    background-image: url(./img/购物车.jpg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: center;
+    text-indent: 20px;
+}
+
+header ul .phone{
+    background: url(./img/phone.jpg) no-repeat;
+    text-indent: 20px;
+    background-size: 20px;
+    background-position-y: center;
+}
+
+header ul .up{
+    background: url(./img/up.jpg) no-repeat;
+    background-size: 10px;
+    background-position-y: center;
+    background-position-x: right;
+    padding-right: 20px;
+}
+
+/* 导航栏样式 */
+nav .logo{
+    margin-left: 140px;
+}
+
+.nav{
+    height: 40px;
+}
+
+.nav ul{
+    height: 40px;
+    line-height: 40px;
+    list-style-type: none;
+    background-color: rgb(255,40,50);
+    color: white;
+}
+
+.nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li{
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    /* padding-left: 20px; */
+    padding-right: 20px;
+}
+
+.firstli{
+    width: 200px;
+    background: url(./img/navup.jpg) no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 20px;
+    padding-left: 120px;
+}
+
+.secondli{
+    padding-left: 40px;
+}
+
+
+
+/* 左侧侧边栏样式 */
+aside{
+    width: 220px;
+    height: 610px;
+    margin-left: 120px;
+    margin-top: 30px;
+    border: 1px solid rgb(72,122,111);
+    float: left;
+    overflow: hidden;
+}
+aside ul{
+    list-style-type: none; 
+}
+
+aside ul li{
+    width: 180px;
+    border-top: 2px dotted rgb(72,122,111);
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+aside ul a{
+    text-decoration: none;
+    color: rgb(72,122,111);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+aside ul .left{
+    width: 220px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(72,122,111);
+    line-height: 50px;
+    color: white;
+    border-bottom: 3px dashed rgb(72,122,111);
+    border-top: hidden;
+    background-clip: padding-box;
+}
+
+aside ul .secondaside{
+    border-top:hidden;
+} 
+
+aside ul p{
+    margin: 0px 20px 5px 20px;
+}
+
+aside ul p a{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(104,104,104);
+}
+
+/* 正文内容 */
+article{
+    width: 750px;
+    margin: 30px 10px 40px 10px;
+    float: left;
+    overflow: hidden;
+}
+
+article #newbook{
+    margin-top: 5px;
+}
+
+article ul{
+    width: 750px;
+    margin-top: 15px;
+    font-size: 14px;
+    position: relative;
+}
+
+article ul #qiang{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+article ul li{
+    width: 150px;
+    display: inline-block;
+    margin: 10px 17px 10px 17px;
+}
+
+article ul li p{
+    margin: 5px 0px 5px 20px;
+}
+
+article ul li .jiong{
+    color: rgb(177,180,193);
+}
+
+article ul li .price{
+    font-weight: bold;
+    color: rgb(195,0,0);
+}
+
+article ul li .cost{
+    font-weight: bold;
+    text-decoration: line-through;
+    color: rgb(170,175,190);
+}
+
+/* 右侧边栏部分 */
+.right{
+    width: 300px;
+    height: 895px;
+    margin-top: 30px;
+    /* background-color: rgb(139, 161, 154); */
+    float: left;
+    overflow: hidden;
+}
+
+/* 右侧边栏第一个ul */
+.right .first{
+    width: 298px;
+    height: 110px;
+    border: 1px solid rgb(242,242,242);
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.right .first li::marker{
+    color: grey;
+    font-size: 5px;
+}
+
+.right .first .none{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-indent: -14px;
+}
+
+.right .first a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 右侧边栏第二个盒子 */
+.right .second{
+    width: 298px;
+    /* height: 300px; */
+    border: 1px solid rgb(242,242,242);
+    margin-top: 10px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.right .second .leftPhoto{
+    width: 25px;
+    position: absolute;
+    left: 0px;
+    top: 75px;
+}
+.right .second .rightPhoto{
+    width: 26px;
+    position: absolute;
+    right: -3px;
+    top: 75px;
+}
+
+.right .second p{
+    width: 283px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 10px 10px 5px;
+}
+
+.right .second p a{
+    text-decoration: none;
+    color: rgb(80, 96, 233);
+    font-size: 14px;
+    font-weight: 400;
+    text-indent: 20px;
+    display: inline-block;
+    float: right;
+}
+
+
+.right .second ul{
+    float: right;
+    overflow: hidden;
+    list-style: none;
+    margin: 10px 15px 10px 5px;
+}
+
+.right .second ul li{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.right .second .price{
+    font-weight: bold;
+    color: rgb(195,0,0);
+}
+
+.right .second .cost{
+    font-weight: bold;
+    text-decoration: line-through;
+    color: rgb(170,175,190);
+}
+
+/* 新书热卖榜部分 */
+.third{
+    width: 300px;
+    height: 45px;
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: bold;
+    background: url(./img/hot.jpg) no-repeat;
+    background-size: 30px;
+    padding-left: 35px;
+    margin-top: 3px;
+}
+
+/* 右边最后一部分 */
+.forth{
+    width: 298px;
+    height: 530px;
+    border: 1px solid rgb(242,242,242);
+}
+
+.forth .forthnav{
+    list-style: none;
+    width: 298px;
+    text-align: center;
+}
+
+.forth .forthnav li{
+    width: 54px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    display: inline-block;
+    border-left: 1px solid rgb(242,242,242);
+    border-bottom: 1px solid rgb(242,242,242);
+}
+
+.forth .forthnav .total{
+    border: hidden;
+}
+
+.forth .forthnav a{
+    color:rgb(104,104,104);
+    text-decoration: none;
+}
+
+.forth .forthnav a:hover{
+    color: rgb(11,157,119);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.forth ol{
+    padding-left: 30px;
+}
+
+.forth ol .special{
+    width: 240px;
+    height:140px;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-bottom: 2px dotted rgb(242,242,242);
+}
+
+.forth ol ul{
+    width: 105px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.forth ol ul p{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+
+.forth ol ul .price{
+    font-weight: bold;
+    color: rgb(195,0,0);
+}
+
+.forth ol ul .cost{
+    font-weight: bold;
+    text-decoration: line-through;
+    color: rgb(170,175,190);
+}
+
+.forth ol ul a{
+    font-weight: 400;
+    color: rgb(72,122,111);
+    text-decoration: none;
+}
+
+
+.forth ol .normal{
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom:  2px dotted rgb(242,242,242);
+}
+
+.forth ol .normal a{
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+}
+
+.forth .read{
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.forth .read a{
+    text-decoration: none;
+    color: rgb(99,155,194);
+}
+
+.forth ol li::marker{
+    color: rgb(195,0,0);
+    font-size: 20px;
+}
+
+/* 脚注部分 */
+#last{
+    border-top: 1px solid rgb(242,242,242);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(177,180,193);
+    float: left;
+    overflow: hidden;
+}
+
+#last ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+#last ul li{
+    display: inline-block;
+    border-right: 1px solid rgb(177,180,193);
+    padding: 0 15px 0px 15px;
+}
+
+#last #one{
+    height: 150px;
+    line-height: 175px;
+    background: url(./img/validate.gif) no-repeat center;
+}
+
+#last #one p{
+    text-indent: 65px;
+}
